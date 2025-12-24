@@ -1,0 +1,23 @@
+# YouTube Cookies 추출 방법
+#
+# 🔥 이 파일이 있으면 YouTube 봇 탐지(403 Forbidden)를 우회할 수 있습니다!
+#
+# 준비 방법:
+# 1. 크롬 확장 프로그램 설치: "Get cookies.txt LOCALLY"
+#    https://chrome.google.com/webstore/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc
+#
+# 2. YouTube.com 방문 (로그인 상태)
+#
+# 3. 확장 프로그램 아이콘 클릭 → "Export" → cookies.txt 다운로드
+#
+# 4. 이 파일을 backend/cookies.txt로 저장
+#
+# ⚠️ 주의: cookies.txt는 개인정보이므로 절대 Git에 커밋하지 마세요!
+#          (.gitignore에 이미 추가되어 있습니다)
+#
+# 샘플 포맷 (실제로는 훨씬 많은 쿠키가 있습니다):
+# .youtube.com	TRUE	/	TRUE	0	VISITOR_INFO1_LIVE	xxxxx
+# .youtube.com	TRUE	/	FALSE	0	YSC	xxxxx
+
+# 이 파일이 없어도 일부 비디오는 작동하지만, 
+# 403 에러가 발생하면 반드시 설정하세요!
