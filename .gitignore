@@ -55,6 +55,12 @@ backend/temp/*.mp4
 # Sensitive files (NEVER commit!)
 backend/cookies.txt
 
+# Interview preparation (Keep private!)
+PORTFOLIO_HIGHLIGHTS.md
+QUICK_DEMO.md
+INTERVIEW_PREP_aianalysis.md
+포트폴리오_정리_완료.md
+
 # Misc
 *.tsbuildinfo
 next-env.d.ts
